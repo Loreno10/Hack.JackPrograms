@@ -1,0 +1,24 @@
+class Main {
+    function void main() {
+        var String name;
+        var int age;
+
+        do Output.printString("Hack Platform - Name Program");
+
+        do Output.println();
+        do Output.println();
+
+        let name = Keyboard.readLine("What is your name? ");
+        let age = Keyboard.readInt("What is your age? ");
+
+        do Output.println();
+
+        do Output.printString("Your name is ");
+        do Output.printString(name);
+        do Output.printString(" and you are ");
+        do Output.printInt(age);
+        do Output.printString(" years old.");
+
+        return;
+    }
+}
